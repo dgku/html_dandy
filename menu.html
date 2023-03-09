@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dandi Gus</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      /* CSS Code */
+      body {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      	width: 100%;
+      	max-width: 960px;
+      	margin:0 auto;
+      	padding: 1em;
+        font-size: 100%;
+      }
+      
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.875em;
+        line-height: 1.5;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        border-bottom: 1px solid blue;
+      }
+      ul {
+      	margin:0;
+      	padding:0;
+      	list-style:none;
+      }
+      #header ul li {
+      	display:inline-block;
+      	padding: .5em;
+      }
+      #content{
+      	width: 70%;
+      	float: left;
+      }
+      #content section {
+      	margin-top: 2em;
+      	border-top: 2px solid #ccc;
+      }
+      #sidebar {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      	width: 30%;
+      	float: right;
+        padding-left: 1em;
+      }
+      section h3+p {
+      	border-bottom: 1px solid #ccc;
+      	padding-bottom: 1em;
+      }
+      section article {
+      	border-bottom: 1px solid #ccc;
+        line-height:normal;
+      }
+      #footer {
+      	clear:both;
+      	text-align:center;
+        padding-top: 1em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+        <nav>
+            <div class="navbar center">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div id="header-image-menu">
+                <img src="https://msportsid.com/public/article/cover/1678042360FqedidBXoAAdV25.jpg" height="400" width="100%">
+            </div>      
+        </nav>
+    </header>
+
+    <!-- <main> element -->
+    <main id="content" class="group" role="main">
+
+      <!-- <article> element -->
+      <article id="post" role="article">
+      <!-- <header> untuk <article> element -->
+        <header>
+            <h2>Liverpool Bantai Manchester United!</h2>
+            <p>Ditulis oleh: DandyGus,
+                <time>09 Maret 2023, pkl. 23:00</time>
+            </p>
+        </header>
+        <p>Hasil memalukan didapat oleh Manchester United pada Minggu (5/3/2023). Mereka dibantai oleh Liverpool dengan skor 7-0 di Anfield. Sebagai catatan, ini merupakan kekalahan terbesar MU sejak dibekuk oleh Wolverhampton Wanderers dengan skor yang sama pada 26 Desember 1931 atau 89 tahun lalu.</p>
+      </article>
+    </main>
+
+    <!-- <aside> pada <body> element -->
+    <aside id="sidebar" role="complementary">
+      <h3>Arsip</h3>
+      <ul>
+        <li><a href="#">Maret 2023</a></li>
+        <li><a href="#">Februari 2023</a></li>
+        <li><a href="#">Januari 2023</a></li>
+        <li><a href="#">Desember 2022</a></li>
+        <li><a href="#">November 2022</a></li>
+      </ul>
+    </aside>
+
+    <!-- <footer> pada <body> element -->
+    <footer id="footer" role="contentinfo">
+      <p>&copy; 2023 Dandi Gus S. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+* {padding:0; margin:0}
+
+.navbar {
+    float:left;
+    background: #4971f1;
+    width: 100%;
+}
+.navbar li {
+    float: left;
+    list-style: none;
+}
+.navbar li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-weight: bold;
+}
+.navbar li a:hover {
+    background: #FFFFFF;
+    color: #000000;
+}
+.center ul {
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    margin: auto;
+}
+.header-image-menu {
+    top: 10px;
+    position: relative;
+}
+.header-image-menu img {
+    width: 100%;
+    margin: none;
+    padding: none;
+}
